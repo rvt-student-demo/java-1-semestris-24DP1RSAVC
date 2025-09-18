@@ -11,6 +11,9 @@ public class formula {
         int first = Integer.valueOf(scanner.nextLine());
         System.out.println("Give the second number:");
         int second = Integer.valueOf(scanner.nextLine());
-        System.out.println(first + second);
+
+        int sum = first + second;
+
+        System.out.println(first + " + " + second + " = " + sum);
     }
 }
