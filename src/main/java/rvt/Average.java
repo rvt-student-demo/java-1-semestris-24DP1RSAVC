@@ -14,6 +14,7 @@ public class Average {
         System.out.println("Give the third number:");
         int third = Integer.valueOf(scanner.nextLine());
 
-        System.out.println((first + second + third) / 3);
+        double average = (first + second + third) / 3.0;
+        System.out.println("The average is " + average);
     }
 }
