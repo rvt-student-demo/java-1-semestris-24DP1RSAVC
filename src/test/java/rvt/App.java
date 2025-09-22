@@ -13,10 +13,9 @@ public class App {
         //     System.out.println("Tu nevari lietot programmu!");
         // }  
         System.out.println("Password?");
-        String first = reader.nextLine();
-        String second = reader.nextLine();
+        String password = scanner.nextLine();
 
-        if (first.equals("Caput Draconis")) {
+        if (password.equals("Caput Draconis")) {
         System.out.println("Welcome!"); 
         }else{
             System.out.println("Off with you");
