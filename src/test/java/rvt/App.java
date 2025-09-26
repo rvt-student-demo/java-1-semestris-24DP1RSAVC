@@ -12,13 +12,19 @@ public class App {
         //     System.out.println("Tu nevari lietot programmu!");
         // } 
 
-        System.out.println("Password?");
-        String password = scanner.nextLine();
+        // System.out.println("Password?");
+        // String password = scanner.nextLine();
 
-        if (password.equals("Caput Draconis")) {
-        System.out.println("Welcome!"); 
-        }else{
-            System.out.println("Off with you");
+        // if (password.equals("Caput Draconis")) {
+        // System.out.println("Welcome!"); 
+        // }else{
+        //     System.out.println("Off with you");
+        // }
+
+        int num = valueOf(scannner.nextLine());
+
+        for (int i = 0; i <= num; i++);{
+            System.out.println(i);
         }
     }
-}
+}  
