@@ -2,7 +2,7 @@ package rvt;
 
 import java.util.Scanner;
 
-public class GradesPoints {
+public class GradesAndPoints {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -22,7 +22,7 @@ public class GradesPoints {
         } else if (points >= 80 && points <= 89) {
             System.out.println("Grade: 4");
         } else if (points >= 90 && points <= 99) {
-            System.out.println("Grade: failed");
+            System.out.println("Grade: 5");
         } else {
             System.out.println("Grade: incredible!");
         }

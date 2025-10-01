@@ -11,14 +11,25 @@ public class App {
         // } else {
         //     System.out.println("Tu nevari lietot programmu!");
         // } 
-
-        System.out.println("Password?");
-        String password = scanner.nextLine();
-
-        if (password.equals("Caput Draconis")) {
-        System.out.println("Welcome!"); 
-        }else{
-            System.out.println("Off with you");
+//         int loops = 0;
+//         int sum = 0;
+//         while (true) {
+//         System.out.println("Give a number");
+//         int input=Integer.valueOf(scanner.nextLine());
+//         if (input == 0){
+//             break;
+//         }else{
+//             loops += 1;
+//             sum += input;
+//         }  
+//         System.out.println("Sum of the numbers" + sum);
+        printUntilNumber(5);
+        public static void printUntilNumber(5);(int number){
+       int i = 1;
+       while(i >= number){
+        System.out.println(i);
+        i++;
+       }
         }
     }
-}
+ }

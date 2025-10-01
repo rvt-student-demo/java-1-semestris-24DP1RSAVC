@@ -16,9 +16,10 @@ public class delikateses {
         int ekspress = Integer.valueOf(scanner.nextLine());
 
         double piegade = 0.00;
-        if (cena <= 10.00){
+        if (cena <= 10.00) {
             piegade = 2.00;
-        }if(ekspress == 1){
+        }
+        if (ekspress == 1) {
             piegade += 3.0;
         }
         double kopa = cena + piegade;
@@ -27,6 +28,6 @@ public class delikateses {
         System.out.println(prece + " " + cena);
         System.out.println("Piegāde " + piegade);
         System.out.println("Kopā " + kopa);
-      
+
     }
 }
