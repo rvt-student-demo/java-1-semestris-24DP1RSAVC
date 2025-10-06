@@ -11,6 +11,7 @@ public class App {
         // } else {
         //     System.out.println("Tu nevari lietot programmu!");
         // } 
+<<<<<<< HEAD
 //         int loops = 0;
 //         int sum = 0;
 //         while (true) {
@@ -33,3 +34,22 @@ public class App {
         }
     }
  }
+=======
+
+        // System.out.println("Password?");
+        // String password = scanner.nextLine();
+
+        // if (password.equals("Caput Draconis")) {
+        // System.out.println("Welcome!"); 
+        // }else{
+        //     System.out.println("Off with you");
+        // }
+
+        int num = valueOf(scannner.nextLine());
+
+        for (int i = 0; i <= num; i++);{
+            System.out.println(i);
+        }
+    }
+}  
+>>>>>>> 8294f21e26993bf193ef34891fd599c7edcf4f50
