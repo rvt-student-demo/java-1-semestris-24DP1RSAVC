@@ -12,7 +12,7 @@ public class delikateses {
         System.out.println("Ievadi cenu: ");
         double cena = Double.valueOf(scanner.nextLine());
 
-        System.out.println("Ekspress piegāde (0 == nē, 1 == jā): ");
+        System.out.println(" Ekspress piegāde (0 == nē, 1 == jā): ");
         int ekspress = Integer.valueOf(scanner.nextLine());
 
         double piegade = 0.00;
