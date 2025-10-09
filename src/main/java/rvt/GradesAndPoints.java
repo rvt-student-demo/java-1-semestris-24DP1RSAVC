@@ -6,7 +6,7 @@ public class GradesAndPoints {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Give points [0 - 100]");
+        System.out.println("Give points  [0 - 100]");
 
         int points = Integer.valueOf(scanner.nextLine());
         if (points < 0) {
