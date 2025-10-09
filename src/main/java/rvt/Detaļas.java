@@ -10,7 +10,7 @@ public class Detaļas {
         final int nutPrice = 3; // 3 centi par uzgriezni
         final int washerPrice = 1; // 1 cents par paplāksni
 
-        System.out.print("Skrūvju skaits: ");
+        System.out.print("Skrūvju  skaits: ");
         int skruves = Integer.valueOf(scanner.nextLine());
 
         System.out.print("Uzgriežņu skaits: ");
